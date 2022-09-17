@@ -1,0 +1,82 @@
+
+
+git config --global user.email "你的email"
+git config --global user.name "你的名字"
+git config user.name
+git init
+git status
+git add .
+git status
+
+第一次用git status，是確認有哪些檔案
+用git add .，是全選
+第二次用git status，是確認選擇了哪些檔案(紅字變綠字)?
+
+cd "C:\Users\dlemi\OneDrive\Desktop\
+git commit -m 'first commit'
+git add .
+
+綠色是 要做commit
+
+git commit -m 'modify first'
+
+git init 是建立一個空的倉庫，git add 建立草稿 ，git commit 建立備份 這樣嗎??
+second
+
+1. :
+2. q!
+
+git log
+看歷史指令
+11呂惠華 簽退
+
+git rest --hard 6d480
+這個6d480是指sha1 id
+hard 版本位置
+
+
+git reflog
+git reset
+
+
+
+Sonia0214alvin
+sonialu222
+opo@ms43.url.com.tw
+
+token
+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
+
+
+
+git push  -u origin master
+
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git clone https://github.com/JuFengWu/object_orient_example.git
+Cloning into 'object_orient_example'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 19 (delta 3), reused 19 (delta 3), pack-reused 0
+Receiving objects: 100% (19/19), done.
+Resolving deltas: 100% (3/3), done.
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git remote add origin https://github.com/sonialu222/first_test.git
+
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git push  -u origin master
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (17/17), 1.67 KiB | 855.00 KiB/s, done.
+Total 17 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/sonialu222/first_test.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+

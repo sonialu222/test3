@@ -1,0 +1,230 @@
+9/15
+
+
+token
+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
+
+
+
+git push  -u origin master
+
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git clone https://github.com/JuFengWu/object_orient_example.git
+Cloning into 'object_orient_example'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 19 (delta 3), reused 19 (delta 3), pack-reused 0
+Receiving objects: 100% (19/19), done.
+Resolving deltas: 100% (3/3), done.
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git remote add origin https://github.com/sonialu222/first_test.git
+
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git push  -u origin master
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (17/17), 1.67 KiB | 855.00 KiB/s, done.
+Total 17 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/sonialu222/first_test.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+
+git reflog
+git reset
+
+
+
+9/15
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git clone https://github.com/JuFengWu/object_orient_example.git
+Cloning into 'object_orient_example'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 19 (delta 3), reused 19 (delta 3), pack-reused 0
+Receiving objects: 100% (19/19), done.
+Resolving deltas: 100% (3/3), done.
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git remote add origin https://github.com/sonialu222/first_test.git
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git pust  -u origin master
+git: 'pust' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git push  -u origin master
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (17/17), 1.67 KiB | 855.00 KiB/s, done.
+Total 17 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/sonialu222/first_test.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ ^C
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ ^C
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   second.txt
+        modified:   test.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        object_orient_example/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git add .
+warning: adding embedded git repository: object_orient_example
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> object_orient_example
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached object_orient_example
+hint:
+hint: See "git help submodule" for more information.
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git add .
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git commit -m 'modify first'
+[master e71f98f] modify first
+ 3 files changed, 74 insertions(+), 32 deletions(-)
+ create mode 160000 object_orient_example
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.32 KiB | 1.32 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/sonialu222/first_test.git
+   35cbcd8..e71f98f  master -> master
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/dlemi/OneDrive/Desktop/python/.git/
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git add .
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    object_orient_example
+        deleted:    second.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "first - \350\244\207\350\243\275.txt"
+        scent.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ ^C
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    object_orient_example
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ ^C
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    object_orient_example
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/dlemi/OneDrive/Desktop/python/.git/
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git add .
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore.txt
+        deleted:    object_orient_example
+
+
+dlemi@LAPTOP-6HDFE346 MINGW64 /c/Users/dlemi/OneDrive/Desktop/python (master)
+$
+

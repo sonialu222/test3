@@ -1,0 +1,11 @@
+
+
+git config --global user.email "你的email"
+git config --global user.name "你的名字"
+git config user.name
+git init
+git status
+git add .
+git status
+
+cd "C:\Users\dlemi\OneDrive\Desktop\
